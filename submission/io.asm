@@ -1,0 +1,41 @@
+SC /100
+HM /000
+NUM1 K /000
+NUM2 K /000
+VAR33 K /3030
+VAR100 K /100
+res1 K /000
+Test K /000
+multi K /A000
+multis K /000A
+VAR1 K /0100
+
+@ /100
+inicio K /000
+GD /000
+SB VAR33
+MM NUM1
+GD /000
+GD /000
+SB VAR33
+MM NUM2
+AD NUM1
+MM res1
+ML VAR100
+MM Test
+LD multi
+SB Test
+JN CO
+JP fim
+CO LD res1
+SB multis
+AD VAR1
+AD VAR33
+MM res1
+PD /100
+PD /100
+PD /100
+PD /100
+
+fim RS inicio
+
