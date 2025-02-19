@@ -33,9 +33,7 @@ AD VAR1
 AD VAR33
 MM res1
 PD /100
-PD /100
-PD /100
-PD /100
+
 
 fim RS inicio
 
